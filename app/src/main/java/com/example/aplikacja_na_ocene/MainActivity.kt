@@ -12,6 +12,7 @@ import android.provider.MediaStore
 import android.view.View
 import android.widget.*
 import androidx.core.app.ActivityCompat
+import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -71,6 +72,9 @@ class MainActivity : AppCompatActivity() {
                 zmienna--;
             }
 
+        }
+        wyczysc_btn.setOnClickListener{
+            obrazek.setImageResource(0);
         }
         if(ActivityCompat.checkSelfPermission(this, Manifest.permission.CAMERA) !=
             PackageManager.PERMISSION_GRANTED){
