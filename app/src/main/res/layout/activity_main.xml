@@ -130,10 +130,9 @@
         tools:ignore="SpeakableTextPresentCheck" />
 
     <CheckBox
-        android:id="@+id/checkbox_cheese"
+        android:id="@+id/checkbox_schowaj"
         android:layout_width="246dp"
         android:layout_height="75dp"
-        android:onClick="Schowaj()"
         android:text="Włączenie obrazu"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
