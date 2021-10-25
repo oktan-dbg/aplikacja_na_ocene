@@ -10,10 +10,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.provider.MediaStore
 import android.view.View
-import android.widget.Button
-import android.widget.CheckBox
-import android.widget.ImageButton
-import android.widget.ImageView
+import android.widget.*
 import androidx.core.app.ActivityCompat
 
 class MainActivity : AppCompatActivity() {
@@ -25,9 +22,17 @@ class MainActivity : AppCompatActivity() {
         var zmienna= 1;
         val nast_btn = findViewById<ImageButton>(R.id.nastepny_btn);
         val pop_btn = findViewById<ImageButton>(R.id.poprzedni_btn);
+        val zapisz = findViewById<Button>(R.id.zapisz_btn);
         val obrazek = findViewById<ImageView>(R.id.zdjecie_img);
 
         val check_schowaj = findViewById<CheckBox>(R.id.checkbox_schowaj);
+        val editText = findViewById<EditText>(R.id.edit_scale);
+        var zmienna_2=0;
+
+        zapisz.setOnClickListener{
+            zmienna= Integer.parseInt(editText.getText().toString());
+            obrazek.layoutParams = LinearLayout.LayoutParams(zmienna,zmienna)
+        }
 
         check_schowaj.setOnClickListener{
             if(check_schowaj.isChecked==true){

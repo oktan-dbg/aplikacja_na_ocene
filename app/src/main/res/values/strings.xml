@@ -5,4 +5,9 @@
     <string name="poprzedni_btn">poprzednie zdjecie</string>
     <string name="wyczysc_btn">Wyczysc zdj_img</string>
     <string name="zdj_btn">Wykonaj zdjecie</string>
+    <string name="w_czenie_obrazu">Włączenie obrazu</string>
+    <string name="nast_pny">następny</string>
+    <string name="wyczy">Wyczyść</string>
+    <string name="poprzedni">poprzedni</string>
+    <string name="powy_ej_wpisz_warto_jakiej_wielko_ci_ma_by_zdjecie">Powyżej wpisz wartość jakiej wielkości ma być zdjecie</string>
 </resources>
