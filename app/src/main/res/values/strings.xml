@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">aplikacja_na_ocene</string>
+    <string name="zdjecie_img">Wyświetlanie zdjęć</string>
+    <string name="nastepny_btn">następne zdjęcie</string>
+    <string name="poprzedni_btn">poprzednie zdjecie</string>
+    <string name="wyczysc_btn">Wyczysc zdj_img</string>
+    <string name="zdj_btn">Wykonaj zdjecie</string>
+</resources>
